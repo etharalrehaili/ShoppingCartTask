@@ -63,4 +63,12 @@ dependencies {
 
     implementation("com.google.dagger:hilt-android:2.51.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    testImplementation(kotlin("test"))
+
+    // MockK for mocking
+    testImplementation("io.mockk:mockk:1.12.0")
+    // Coroutines Test for testing suspending functions
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0")
+    // JUnit for unit tests
+    testImplementation("junit:junit:4.13.2")
 }
