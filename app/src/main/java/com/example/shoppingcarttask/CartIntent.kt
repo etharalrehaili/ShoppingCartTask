@@ -1,6 +1,6 @@
 package com.example.shoppingcarttask
 
-import com.example.shoppingcarttask.domain.models.CartItem
+import com.example.shoppingcarttask.domain.models.Cart
 
 sealed class CartIntent {
     object LoadCart : CartIntent()
