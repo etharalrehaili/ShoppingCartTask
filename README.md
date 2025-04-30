@@ -1,5 +1,5 @@
 # Shopping Cart App
-A simple shopping cart app using Kotlin, Jetpack Compose, and MVI architecture with Hilt for dependency injection.
+A simple shopping cart app using Kotlin, Jetpack Compose, and MVI architecture with Hilt for dependency injection & Unit Testing.
 
 ## Project Overview
 This app demonstrates the use of Model-View-Intent (MVI) architecture to manage UI state in a scalable and predictable way. It features a cart system where users can load cart items, add new items, and potentially remove or update them.
